@@ -1,0 +1,31 @@
+    Personal = {
+        
+               name : 'Christa',
+               email: 'christa@gmail.com',
+               number: '123457789'
+           };
+       
+           Personal = {
+               
+               name : 'Dummy',
+               email: 'christa@gmail.com',
+                number: '123457789'
+           };
+       
+           Personal1 = {
+                       
+               name : 'Details',
+               email: 'christa@gmail.com',
+               number: '123457789'
+            };
+       
+            Personal2 = {
+                               
+               name : 'Other',
+               email: 'christa@gmail.com',
+               number: '123457789'
+             };
+       
+               var contactLsit = [Personal2,Personal1,Personal];
+
+               res.json(contactLsit);
